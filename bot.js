@@ -11,7 +11,7 @@ const opts = {
     ]
 };
 
-const = timeout_list = {};
+const timeout_list = {};
 
 function addToTimeoutList(msg,context){
   const addx = /\!timeout\s+(\w+)\s*(\d+)/i;
